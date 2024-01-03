@@ -1,0 +1,144 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+ html,
+ body {
+     height: 100%;
+     width: 100%;
+     margin: 0px;
+     padding: 0px;
+ }
+
+ .left img {
+     width: 32px;
+     height: 23px;
+ }
+
+ /* alway main div max-width */
+ .container {
+     /* 1 container a sab samay max-width tahola responsive hakba */
+     
+     /* max-width: 90vw;
+    padding:  0px 12px; 
+     margin: auto; */
+
+     /* 2 */
+ /* if 
+ nav{
+    font-size: 23px;
+    padding-top: 23px;
+} */ 
+/*  s casa  */
+
+      padding: 1 7vw;
+  
+     /*  upper line both work same */
+     /* margin auto korla center a asba */
+
+
+     /* 3  if nav{
+    font-size: 23px;
+    padding-top: 23px;
+} navta ata na korla*/
+
+/* 
+padding: 0 10vw;
+margin: 12px 0px; */
+
+ }
+
+ /* nav ka sticky background-colour-white hola puro back ground white 
+move hola dhaka jaba na */
+
+ header {
+     position: sticky;
+     top: 0px;
+     background-color: white;
+     height: 66px;
+ 
+ }
+ /* font size importent role puro web site ar font mana com+shif+ ae 
+ ja kaj */
+nav{
+    font-size: 13px;
+    padding-top: 14px;
+}
+ nav ul li {
+     list-style: none;
+     padding: 0 12px;
+ }
+
+ .upper_case {
+     text-transform: uppercase;
+ }
+
+ .bold {
+     font-weight: bolder;
+ }
+
+ .mx-12 {
+     margin-left: 12px;
+     margin-right: 12px;
+ }
+
+ .section1  {
+    width: 90vw;    
+
+ }
+ .image1{
+      width: 80vw;    
+        margin: 8px 0px;
+  }
+  .section2  {
+    width: 90vw;    
+justify-content: space-between;
+ }
+  .itemimg{
+     width: 10vw;
+   margin: 6px 7px  ;
+   /* justify-content: space-between; */
+   height: 100px;
+   }
+ .input_size{
+    width: 25vw;
+    padding: 4px 17px;
+    border-radius: 5px;
+border: .5px solid black;
+background-color: rgb(250, 248, 248);
+
+ }
+ footer{
+  background-color: red;   
+
+position: sticky;
+bottom: 0px;
+padding: 0px 12px;
+}
+ @media (max-width: 1000px) {
+    header {
+      background-color: brown;
+      height: 120px;
+    }
+   nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .image1{
+        margin: 6px 7px;
+    }
+  }
+   @media (max-width: 550px) {
+    header {
+      background-color: rgb(73, 42, 165);
+      height: 84px;
+    }
+   nav{
+        flex-direction: column;
+        align-items: center;
+     }
+     .left{
+        font-size: 5px;
+     }
+     .input_size{
+        width: 147px;
+     }
+  } 
